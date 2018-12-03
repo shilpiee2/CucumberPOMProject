@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="3" time="44.131857">
+<testcase classname="Application test for deal page test" name="user able to create new deal" time="9.875337">
+<system-out><![CDATA[Given user is on home.......................................................passed
+When user clicks on deals tab and select New deal option....................passed
+And user lands on Deal Page.................................................passed
+Then user enter deal details and save.......................................passed
+And verify new deal created successfully....................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Application Test of FREECRM" name="Validate login application successfully." time="11.483177">
+<system-out><![CDATA[Given user is on login Page.................................................passed
+When user logged in to application by entering username and password........passed
+Then user validate homepage Title...........................................passed
+Then user validate logged in username label.................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Application Test of FREECRM" name="user is able to create new contact" time="22.773343">
+<system-out><![CDATA[Given user is logged into FREECRM application using username and password...passed
+When user is on Your HomePage...............................................passed
+Then user click on Contacts Link and select New Contacts....................passed
+And user landed on new Contact page.........................................passed
+Then user enters details of the new contact and save........................passed
+]]></system-out>
+</testcase>
+</testsuite>

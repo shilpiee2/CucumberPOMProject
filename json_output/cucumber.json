@@ -1,0 +1,330 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 8917122453,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HomePageSteps.setup()"
+            }
+          }
+        ],
+        "line": 3,
+        "name": "user able to create new deal",
+        "description": "",
+        "id": "application-test-for-deal-page-test;user-able-to-create-new-deal",
+        "after": [
+          {
+            "result": {
+              "duration": 796543245,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HomePageSteps.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 161581324,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user is on home",
+            "match": {
+              "location": "DealPageSteps.user_is_on_home()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 18903,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user clicks on deals tab and select New deal option",
+            "match": {
+              "location": "DealPageSteps.user_clicks_on_deals_tab_and_select_New_deal_option()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 29164,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user lands on Deal Page",
+            "match": {
+              "location": "DealPageSteps.user_lands_on_Deal_Page()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 19443,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user enter deal details and save",
+            "match": {
+              "location": "DealPageSteps.user_enter_deal_details_and_save()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 22144,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "verify new deal created successfully",
+            "match": {
+              "location": "DealPageSteps.verify_new_deal_created_successfully()"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "Application test for deal page test",
+    "description": "",
+    "id": "application-test-for-deal-page-test",
+    "keyword": "Feature",
+    "uri": "deals.feature"
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 6322201838,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HomePageSteps.setup()"
+            }
+          }
+        ],
+        "line": 3,
+        "name": "Validate login application successfully.",
+        "description": "",
+        "id": "application-test-of-freecrm;validate-login-application-successfully.",
+        "after": [
+          {
+            "result": {
+              "duration": 748423899,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HomePageSteps.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 82746846,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user is on login Page",
+            "match": {
+              "location": "HomePageSteps.user_is_on_login_Page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4140958747,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user logged in to application by entering username and password",
+            "match": {
+              "location": "HomePageSteps.user_enters_username_and_password()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 10815187,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user validate homepage Title",
+            "match": {
+              "location": "HomePageSteps.user_validate_homepage_Title()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 178030129,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user validate logged in username label",
+            "match": {
+              "location": "HomePageSteps.user_validate_logged_in_username_label()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 6524993208,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HomePageSteps.setup()"
+            }
+          }
+        ],
+        "line": 11,
+        "name": "user is able to create new contact",
+        "description": "",
+        "id": "application-test-of-freecrm;user-is-able-to-create-new-contact",
+        "after": [
+          {
+            "result": {
+              "duration": 786227636,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HomePageSteps.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2599590724,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "user is logged into FREECRM application using username and password",
+            "match": {
+              "location": "HomePageSteps.user_is_logged_into_FREECRM_application_using_username_and_password()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 97755,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "user is on Your HomePage",
+            "match": {
+              "location": "HomePageSteps.user_is_on_Your_HomePage()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1439939122,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "user click on Contacts Link and select New Contacts",
+            "match": {
+              "location": "HomePageSteps.user_click_on_Contacts_Link_and_select_New_Contacts()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 61049502,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "user landed on new Contact page",
+            "match": {
+              "location": "HomePageSteps.user_landed_on_new_Contact_page()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 11361444898,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "user enters details of the new contact and save",
+            "match": {
+              "location": "HomePageSteps.user_enters_and_and_save(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "firstname",
+                  "surname"
+                ],
+                "line": 19
+              },
+              {
+                "cells": [
+                  "john",
+                  "Kerry"
+                ],
+                "line": 20
+              },
+              {
+                "cells": [
+                  "Salma",
+                  "sheikh"
+                ],
+                "line": 21
+              },
+              {
+                "cells": [
+                  "Arja",
+                  "Das"
+                ],
+                "line": 22
+              },
+              {
+                "cells": [
+                  "Akhil",
+                  "Bose"
+                ],
+                "line": 23
+              },
+              {
+                "cells": [
+                  "Madhabi",
+                  "Bose"
+                ],
+                "line": 24
+              }
+            ],
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Application Test of FREECRM",
+    "description": "",
+    "id": "application-test-of-freecrm",
+    "keyword": "Feature",
+    "uri": "freecrm.feature"
+  }
+]
